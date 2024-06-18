@@ -1,4 +1,4 @@
-﻿namespace C_WebAPI_1
+﻿namespace C_WebAPI_1.Services
 {
     public class BiscuitService
     {
@@ -9,7 +9,7 @@
 
         public IEnumerable<string> GetBiscuitTypes()
         {
-            return new List<string> { "Chocolate", "Oatmeal", "Digestive"};
+            return new List<string> { "Chocolate", "Oatmeal", "Digestive" };
         }
     }
 }

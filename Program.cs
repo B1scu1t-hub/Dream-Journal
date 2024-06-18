@@ -1,4 +1,4 @@
-using C_WebAPI_1;
+using C_WebAPI_1.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,7 +15,7 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseWelcomePage();
+    
 }
 
 app.UseHttpsRedirection();

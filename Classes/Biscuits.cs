@@ -1,4 +1,4 @@
-﻿namespace C_WebAPI_1
+﻿namespace C_WebAPI_1.Classes
 {
     public class Biscuits
     {
