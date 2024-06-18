@@ -9,7 +9,7 @@ namespace C_WebAPI_1.Controllers
         [HttpGet(Name ="HomePage")]
         public string PlaceHolder()
         {
-            return "Welcome to the homepage!";
+            return "Welcome to the homepage Fucker!!!";
         }
     }
 }
